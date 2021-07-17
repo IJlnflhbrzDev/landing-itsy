@@ -10842,4 +10842,32 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+
+/*
+    Styling Header
+*/
+header {
+  padding-top: 50px;
+  background-image: url("../images/img/jumbotrons-image.png");
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  background-attachment: fixed;
+  max-height: 50vh;
+  min-height: 100vh;
+}
+
+header h1 {
+  line-height: 1.2;
+  font-size: 48px !important;
+  font-weight: 800 !important;
+  color: #3C5186;
+}
 /*# sourceMappingURL=style.css.map */
