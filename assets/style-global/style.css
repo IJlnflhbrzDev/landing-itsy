@@ -10846,6 +10846,24 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 18px;
+  color: #aaa;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 29px;
+  font-weight: 700;
+  color: #3C5186;
+  margin-bottom: 15px;
+}
+
+section {
+  margin-top: 100px;
 }
 
 /*
@@ -10869,5 +10887,74 @@ header h1 {
   font-size: 48px !important;
   font-weight: 800 !important;
   color: #3C5186;
+}
+
+header .btn-primary {
+  color: #fff;
+  background-color: #3C5186;
+  border-color: #3C5186;
+  margin-top: 30px;
+  line-height: 0;
+  padding: 9px 40px;
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-text-stroke: thin;
+  font-weight: bold;
+  -webkit-text-stroke-color: white;
+  letter-spacing: 1px;
+}
+
+section .about-us-pelayanan .card:hover .icons-pelayanan {
+  background: #3C5186;
+}
+
+section .about-us-pelayanan .card:hover .icons-pelayanan i {
+  color: white;
+}
+
+section .about-us-pelayanan .icons-pelayanan {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 75px;
+  height: 64px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: 2px solid #3C5186;
+  border-radius: 50%;
+}
+
+section .about-us-pelayanan .icons-pelayanan i {
+  font-size: 40px;
+  color: #3C5186;
+}
+
+section .about-us-pelayanan .sub-title-pelayanan {
+  margin-left: 40px;
+}
+
+section .about-us-pelayanan .sub-title-pelayanan a {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+section .about-us-pelayanan .sub-title-pelayanan p {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 992px) {
+  header .ilustration-jumbotron {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
