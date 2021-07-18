@@ -10872,7 +10872,7 @@ h2 {
 }
 
 section {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 /*
@@ -10991,6 +10991,100 @@ header .btn-primary {
   color: #012970;
   font-weight: 700;
   margin-bottom: 18px;
+}
+
+#pricising .card {
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+#pricising .title_box {
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+  padding: 60px 40px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#pricising .title_box img {
+  padding: 30px 40px;
+}
+
+#pricising .title_box:hover {
+  background-color: #3C5186;
+  overflow: hidden;
+  padding: 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+}
+
+#pricising .title_box:hover a {
+  border-color: white !important;
+  color: black !important;
+  background: white;
+}
+
+#pricising .title_box:hover span,
+#pricising .title_box:hover h3,
+#pricising .title_box:hover h4,
+#pricising .title_box:hover li {
+  color: white !important;
+}
+
+#pricising .title_box h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#pricising .title_box sup {
+  font-size: 20px;
+}
+
+#pricising .title_box code {
+  font-size: 35px;
+}
+
+#pricising .title_box small {
+  color: #aaa;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+#pricising .title_box span {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  color: #37517e;
+  margin-top: 10px;
+}
+
+#pricising .list_description {
+  padding: 20px 0;
+  color: #999;
+  line-height: 20px;
+}
+
+#pricising .list_description li {
+  margin: 20px 0;
+  list-style: none;
+  color: grey;
+  font-size: 15px;
+}
+
+#pricising .list_description li i {
+  color: #47b2e4;
+  font-size: 24px;
+}
+
+#pricising .list_description .disable_order_plan {
+  text-decoration: line-through;
+}
+
+#pricising .list_description .disable_order_plan i {
+  color: #9b9b9b !important;
 }
 
 @media screen and (max-width: 992px) {
