@@ -6,12 +6,22 @@ body{
      overflow-x: hidden;
 }
 
+// untuk memberi style global setiap pada span yg memiliki class ini
+.sub-heading-center {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+}
+// default style paragraf
 p {
   font-size: 18px;
-  color: #aaa;
+  color: #00000085;
   line-height: 1.5;
 }
-
+// default style heading 2
 h2{
     font-size: 29px;
     font-weight: 700;
@@ -19,8 +29,9 @@ h2{
     margin-bottom: 15px;
 
 }
+// default style section
 section {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 /*
@@ -28,15 +39,16 @@ section {
 */
 
 header {
-  padding-top: 50px;
+  padding-top: 80px;
+  padding-bottom: 60px;
   background-image: url('../images/img/jumbotrons-image.png');
   background-size: cover;
   background-position: center;
   object-fit: cover;
   width: 100%;
-  background-attachment: fixed;
-  max-height: 50vh;
-  min-height: 100vh;
+  background-attachment:local;
+  max-height: 100vh;
+  min-height: 50vh;
 
 
   h1 {
@@ -64,7 +76,9 @@ header {
 
 }
 
-section .about-us-pelayanan {
+.container-about-us {
+
+ .about-us-pelayanan {
 .card {
   &:hover {
 .icons-pelayanan {
@@ -74,7 +88,7 @@ section .about-us-pelayanan {
     }
 }
 
-  }
+}
 
 }
 .icons-pelayanan {
@@ -107,6 +121,38 @@ section .about-us-pelayanan {
   }
  }
 }
+}
+
+// style keungulan
+.container-keungulan {
+
+  .card {
+    padding: 30px;
+    box-shadow: 0px 0 5px rgba(1,41,112,0.08);
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+    cursor: pointer;
+    &:hover {
+      img{
+        overflow: hidden;
+        padding: 30px 50px;
+         transition: all 0.55s ease;
+      }
+    }
+    img{
+      padding: 30px 30px;
+      transition: all 0.55s ease;
+    }
+    h5 {
+      font-size: 24px;
+    color: #012970;
+    font-weight: 700;
+    margin-bottom: 18px;
+    }
+  }
+
+}
 
 
   @media screen and (max-width : 992px )  {
@@ -115,6 +161,11 @@ section .about-us-pelayanan {
        display: none;
 
      }
+    }
+
+    .ilustration-about-us img {
+        width: 100% !important;
+
     }
 
   }
