@@ -1,5 +1,11 @@
 @import "../scss/bootstrap.scss" ;
+[data-toggle="collapse"] .fa:before {
+  content: "\f139";
+}
 
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f13a";
+}
 body{
      font-family: 'Nunito', sans-serif;
      font-weight: 400;
@@ -263,6 +269,29 @@ header {
   color: #9b9b9b !important;
 }
 
+/*
+  F.A.Q
+*/
+#faq {
+  .card {
+    background-color: #fff;
+    border: none; border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 10px;
+    .card-header {
+      padding: 0 ;
+     background: transparent !important;
+    }
+  }
+  .btn {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+
+}
 
 
   @media screen and (max-width : 992px )  {
