@@ -334,6 +334,22 @@ footer {
   }
 }
 
+// STYLE UI BLOG
+
+.all_blog {
+  h1 {
+    font-size: 35px;
+  }
+
+  .card {
+    margin-bottom: 25px;
+  }
+  .list_blog {
+    img {
+      max-height: 300px;
+    }
+  }
+}
 @media screen and (max-width: 992px) {
   header {
     .ilustration-jumbotron {

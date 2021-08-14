@@ -11215,6 +11215,18 @@ footer .col-md-6 .social_media_description {
   width: 60% !important;
 }
 
+.all_blog h1 {
+  font-size: 35px;
+}
+
+.all_blog .card {
+  margin-bottom: 25px;
+}
+
+.all_blog .list_blog img {
+  max-height: 300px;
+}
+
 @media screen and (max-width: 992px) {
   header .ilustration-jumbotron {
     display: none;
