@@ -10852,7 +10852,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   overflow-x: hidden;
 }
@@ -10875,7 +10875,7 @@ p {
 h2 {
   font-size: 29px;
   font-weight: 700;
-  color: #3C5186;
+  color: #3c5186;
   margin-bottom: 15px;
 }
 
@@ -10920,13 +10920,13 @@ header h1 {
   line-height: 1.2;
   font-size: 48px !important;
   font-weight: 800 !important;
-  color: #3C5186;
+  color: #3c5186;
 }
 
 header .btn-primary {
   color: #fff;
-  background-color: #3C5186;
-  border-color: #3C5186;
+  background-color: #3c5186;
+  border-color: #3c5186;
   margin-top: 30px;
   line-height: 0;
   padding: 9px 40px;
@@ -10940,7 +10940,7 @@ header .btn-primary {
 }
 
 .container-about-us .about-us-pelayanan .card:hover .icons-pelayanan {
-  background: #3C5186;
+  background: #3c5186;
 }
 
 .container-about-us .about-us-pelayanan .card:hover .icons-pelayanan i {
@@ -10958,17 +10958,21 @@ header .btn-primary {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 75px;
-  height: 64px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  border: 2px solid #3C5186;
+  border: 2px solid #3c5186;
   border-radius: 50%;
 }
 
 .container-about-us .about-us-pelayanan .icons-pelayanan i {
   font-size: 40px;
-  color: #3C5186;
+  color: #3c5186;
 }
 
 .container-about-us .about-us-pelayanan .sub-title-pelayanan {
@@ -11036,7 +11040,7 @@ header .btn-primary {
 }
 
 #pricising .title_box:hover {
-  background-color: #3C5186;
+  background-color: #3c5186;
   overflow: hidden;
   padding: 30px;
   cursor: pointer;
@@ -11082,7 +11086,7 @@ header .btn-primary {
   display: block;
   font-size: 15px;
   font-weight: bold;
-  color: #3C5186;
+  color: #3c5186;
   margin-top: 10px;
 }
 
@@ -11164,13 +11168,13 @@ footer .col-xl-3 h4,
 footer .col-md-6 h4 {
   font-size: 30px;
   font-weight: 700;
-  color: #3C5186;
+  color: #3c5186;
 }
 
 footer .col-xl-3 h5,
 footer .col-md-6 h5 {
   font-size: 18px;
-  color: #3C5186;
+  color: #3c5186;
   font-weight: bold;
 }
 
@@ -11197,7 +11201,7 @@ footer .col-md-6 li {
 footer .col-xl-3 li i,
 footer .col-md-6 li i {
   margin-right: 7px;
-  color: #3C5186;
+  color: #3c5186;
   font-weight: bold;
 }
 

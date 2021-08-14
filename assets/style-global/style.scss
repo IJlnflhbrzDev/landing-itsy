@@ -1,4 +1,4 @@
-@import "../scss/bootstrap.scss" ;
+@import "../scss/bootstrap.scss";
 [data-toggle="collapse"] .fa:before {
   content: "\f139";
 }
@@ -6,20 +6,20 @@
 [data-toggle="collapse"].collapsed .fa:before {
   content: "\f13a";
 }
-body{
-     font-family: 'Nunito', sans-serif;
-     font-weight: 400;
-     overflow-x: hidden;
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
 }
 
 // untuk memberi style global setiap pada span yg memiliki class ini
 .sub-heading-center {
-    font-size: 13px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    margin: 0;
-    color: #4154f1;
-    text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
 }
 // default style paragraf
 p {
@@ -28,12 +28,11 @@ p {
   line-height: 1.5;
 }
 // default style heading 2
-h2{
-    font-size: 29px;
-    font-weight: 700;
-    color: #3C5186;
-    margin-bottom: 15px;
-
+h2 {
+  font-size: 29px;
+  font-weight: 700;
+  color: #3c5186;
+  margin-bottom: 15px;
 }
 // default style section
 section {
@@ -47,11 +46,10 @@ nav {
   transition: all 0.75s ease;
 }
 
-.change_scroll_navbar_bg  {
+.change_scroll_navbar_bg {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: all 0.55s ease;
   background-color: white !important;
-
 }
 
 /*
@@ -61,28 +59,26 @@ nav {
 header {
   padding-top: 80px;
   padding-bottom: 60px;
-  background-image: url('../images/img/jumbotrons-image.png');
+  background-image: url("../images/img/jumbotrons-image.png");
   background-size: cover;
   background-position: center;
   object-fit: cover;
   width: 100%;
-  background-attachment:local;
+  background-attachment: local;
   max-height: 100vh;
   min-height: 50vh;
-
 
   h1 {
     line-height: 1.2;
     font-size: 48px !important;
     font-weight: 800 !important;
-    color: #3C5186;
-
+    color: #3c5186;
   }
 
   .btn-primary {
     color: #fff;
-    background-color: #3C5186;
-    border-color: #3C5186;
+    background-color: #3c5186;
+    border-color: #3c5186;
     margin-top: 30px;
     line-height: 0;
     padding: 9px 40px;
@@ -92,87 +88,81 @@ header {
     font-weight: bold;
     -webkit-text-stroke-color: white;
     letter-spacing: 1px;
-}
-
+  }
 }
 
 .container-about-us {
-
- .about-us-pelayanan {
-.card {
-  &:hover {
-.icons-pelayanan {
-    background: #3C5186;
-    i {
-      color: white;
+  .about-us-pelayanan {
+    .card {
+      &:hover {
+        .icons-pelayanan {
+          background: #3c5186;
+          i {
+            color: white;
+          }
+        }
+      }
     }
-}
+    .icons-pelayanan {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: max-content;
+      height: max-content;
+      transition: 0.5s;
+      border: 2px solid #3c5186;
+      border-radius: 50%;
 
-}
-
-}
-.icons-pelayanan {
-   margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75px;
-    height: 64px;
-    transition: 0.5s;
-    border: 2px solid #3C5186 ;
-    border-radius: 50%;
-
-    i {
-      font-size: 40px;
-      color: #3C5186;
+      i {
+        font-size: 40px;
+        color: #3c5186;
+      }
     }
-}
 
-.sub-title-pelayanan {
-  margin-left: 40px;
-  a {
-    font-weight: 700;
-    margin-bottom: 10px;
-    font-size: 18px;
+    .sub-title-pelayanan {
+      margin-left: 40px;
+      a {
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+      p {
+        line-height: 24px;
+        font-size: 14px;
+      }
+    }
   }
-  p{
-    line-height: 24px;
-    font-size: 14px;
-  }
- }
-}
 }
 
 // style keungulan
 .container-keungulan {
-
   .card {
     overflow: hidden;
     padding: 30px;
-    box-shadow: 0px 0 5px rgba(1,41,112,0.08);
+    box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
     text-align: center;
     transition: 0.3s;
     height: 100%;
     cursor: pointer;
     &:hover {
-      img{
+      img {
         overflow: hidden;
         padding: 30px 50px;
-         transition: all 0.55s ease;
+        transition: all 0.55s ease;
       }
     }
-    img{
+    img {
       padding: 30px 30px;
       transition: all 0.55s ease;
     }
     h5 {
       font-size: 24px;
-    color: #012970;
-    font-weight: 700;
-    margin-bottom: 18px;
+      color: #012970;
+      font-weight: 700;
+      margin-bottom: 18px;
     }
   }
-
 }
 
 // PRICISING
@@ -194,7 +184,7 @@ header {
 }
 
 #pricising .title_box:hover {
-  background-color: #3C5186;
+  background-color: #3c5186;
   overflow: hidden;
   padding: 30px;
   cursor: pointer;
@@ -228,23 +218,23 @@ header {
   font-size: 35px;
 }
 #pricising .title_box small {
-    color: #aaa;
-    display: inline-block;
-    font-weight: 300;
-    font-size: 16px;
-    letter-spacing: 1px;
- }
+  color: #aaa;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
 
 #pricising .title_box span {
   display: block;
   font-size: 15px;
   font-weight: bold;
-  color: #3C5186;
+  color: #3c5186;
   margin-top: 10px;
 }
 
 #pricising .list_description {
-  padding: 20px 0  ;
+  padding: 20px 0;
   color: #999;
   line-height: 20px;
 }
@@ -275,11 +265,12 @@ header {
 #faq {
   .card {
     background-color: #fff;
-    border: none; border-bottom: 1px solid rgba(0,0,0,.125);
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
     margin-bottom: 10px;
     .card-header {
-      padding: 0 ;
-     background: transparent !important;
+      padding: 0;
+      background: transparent !important;
     }
   }
   .btn {
@@ -287,18 +278,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
-
-
 }
-
 
 /*
    FOOTER
 */
 footer {
-  background-image: url('/assets/images/img/footer-bg.png');
+  background-image: url("/assets/images/img/footer-bg.png");
   padding: 50px 10px;
   margin-top: 100px;
   .col-xl-3,
@@ -311,11 +298,11 @@ footer {
     h4 {
       font-size: 30px;
       font-weight: 700;
-      color: #3C5186;
+      color: #3c5186;
     }
     h5 {
       font-size: 18px;
-      color: #3C5186;
+      color: #3c5186;
       font-weight: bold;
     }
     p {
@@ -332,7 +319,7 @@ footer {
 
       i {
         margin-right: 7px;
-        color: #3C5186;
+        color: #3c5186;
         font-weight: bold;
       }
 
@@ -345,22 +332,16 @@ footer {
       width: 60% !important;
     }
   }
-
-
 }
 
-
-  @media screen and (max-width : 992px )  {
-   header {
-     .ilustration-jumbotron {
-       display: none;
-
-     }
+@media screen and (max-width: 992px) {
+  header {
+    .ilustration-jumbotron {
+      display: none;
     }
-
-    .ilustration-about-us img {
-        width: 100% !important;
-
-    }
-
   }
+
+  .ilustration-about-us img {
+    width: 100% !important;
+  }
+}
