@@ -11231,6 +11231,10 @@ footer .col-md-6 .social_media_description {
   border: none;
 }
 
+.post-featured .card img {
+  border-radius: 0.25rem;
+}
+
 .post-featured .card .post-featured-update {
   font-size: 12px;
 }

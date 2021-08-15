@@ -354,6 +354,10 @@ footer {
 .post-featured {
   .card {
     border: none;
+
+    img {
+      border-radius: 0.25rem;
+    }
     .post-featured-update {
       font-size: 12px;
     }
