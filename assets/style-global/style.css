@@ -11227,6 +11227,35 @@ footer .col-md-6 .social_media_description {
   max-height: 300px;
 }
 
+.post-featured .card {
+  border: none;
+}
+
+.post-featured .card .post-featured-update {
+  font-size: 12px;
+}
+
+.post-featured .card .post-featured-desc {
+  font-size: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.post-featured .card-body {
+  padding: 0px 1.25rem;
+}
+
+.post-featured .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media screen and (max-width: 992px) {
   header .ilustration-jumbotron {
     display: none;

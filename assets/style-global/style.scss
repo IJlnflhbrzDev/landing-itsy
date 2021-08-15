@@ -350,6 +350,29 @@ footer {
     }
   }
 }
+
+.post-featured {
+  .card {
+    border: none;
+    .post-featured-update {
+      font-size: 12px;
+    }
+    .post-featured-desc {
+      font-size: 15px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    &-body {
+      padding: 0px 1.25rem;
+    }
+  }
+  .row {
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 992px) {
   header {
     .ilustration-jumbotron {
