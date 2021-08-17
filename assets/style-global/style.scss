@@ -435,8 +435,16 @@ footer {
 }
 @media screen and (max-width: 992px) {
   header {
+    .bg-transparent {
+      background-color: white !important;
+    }
     .ilustration-jumbotron {
-      display: none;
+      img {
+        width: 100% !important;
+      }
+    }
+    .row {
+      flex-direction: column-reverse;
     }
   }
 
