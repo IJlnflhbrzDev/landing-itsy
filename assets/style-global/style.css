@@ -10903,17 +10903,23 @@ nav {
     Styling Header
 */
 header {
-  padding-top: 80px;
-  padding-bottom: 60px;
   background-image: url("../images/img/jumbotrons-image.png");
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  background-attachment: local;
-  max-height: 100vh;
-  min-height: 50vh;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header h1 {
@@ -11333,9 +11339,6 @@ footer .col-md-6 .social_media_description {
 }
 
 @media screen and (max-width: 992px) {
-  header .bg-transparent {
-    background-color: white !important;
-  }
   header .ilustration-jumbotron img {
     width: 100% !important;
   }
