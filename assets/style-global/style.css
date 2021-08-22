@@ -10847,8 +10847,47 @@ a.text-dark:hover, a.text-dark:focus {
   content: "\f139";
 }
 
+.tombol-darkmode .fas::before {
+  content: "\f185" !important;
+}
+
+.tombol-darkmode .fas.dark-mode::before {
+  content: "\f186" !important;
+}
+
+.tombol-darkmode {
+  text-decoration: none;
+  position: fixed;
+  bottom: 90px;
+  right: 30px;
+  font-size: 26px;
+  z-index: 20;
+  width: 51px;
+  color: #3c5186;
+  height: 51px;
+  border: none;
+  line-height: 46px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  top: auto;
+}
+
 [data-toggle="collapse"].collapsed .fa:before {
   content: "\f13a";
+}
+
+.root-dark-mode {
+  -webkit-filter: invert(1) hue-rotate(180deg);
+          filter: invert(1) hue-rotate(180deg);
+}
+
+.root-dark-mode .cta {
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 
 body {
