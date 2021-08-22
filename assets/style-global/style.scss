@@ -2,6 +2,10 @@
 [data-toggle="collapse"] .fa:before {
   content: "\f139";
 }
+
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f13a";
+}
 .tombol-darkmode .fas::before {
   content: "\f185" !important;
 }
@@ -11,9 +15,9 @@
 .tombol-darkmode {
   text-decoration: none;
   position: fixed;
-  bottom: 90px;
-  right: 30px;
-  font-size: 26px;
+  bottom: 20px;
+  right: 20px;
+  font-size: 25px;
   z-index: 20;
   width: 51px;
   color: #3c5186;
@@ -21,20 +25,30 @@
   border: none;
   line-height: 46px;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 50%;
   transition: 0.5s;
   box-sizing: border-box;
   top: auto;
 }
-
-[data-toggle="collapse"].collapsed .fa:before {
-  content: "\f13a";
-}
 .root-dark-mode {
   filter: invert(1) hue-rotate(180deg);
-  .cta {
+  -webkit-filter: invert(1) hue-rotate(180deg);
+  .cta,
+  .bg-dark,
+  .text-white {
     filter: invert(1);
   }
+  .cta .content_cta h2 {
+    color: black !important;
+  }
+  .cta .btn {
+    border-color: black;
+    color: black;
+  }
+  .footer_simple {
+    box-shadow: 1px 0 5px 0 #44580e;
+  }
+  transition: all 0.95s ease;
 }
 
 body {
