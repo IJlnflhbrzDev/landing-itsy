@@ -10908,6 +10908,11 @@ a.text-dark:hover, a.text-dark:focus {
           box-shadow: 1px 0 5px 0 #44580e;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
